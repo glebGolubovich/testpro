@@ -1,0 +1,55 @@
+body{
+	font-family: inpact:
+	/*padding:0px 20px;*/
+	margin:0;
+	background-color: gray; 
+}
+header, footer{
+	padding: 40px;
+	text-align: center;
+	background: black:
+	color: silver;
+}
+nav{
+	background: aqua;
+	display: flex;
+}
+nav a{
+	color: black;
+	padding: 20px 30px;
+	text-decoration: none;
+	text-align: center;
+}
+nav a:hover{
+	background: black;
+	color: white;
+}
+.main{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.main .left-panel{
+	background: #085ec7;
+	padding: 20px;
+	flex: 30%;
+}
+.main .right-panel{
+	background: #08857f;
+	padding: 20px;
+	flex: 70%;
+}
+.fakeimg{
+	background: silver;
+	margin: 10px;
+}
+.fakeimg img{
+	width: 25%;
+	border-radius: 30px;
+}
+@media screen and (max-width: 700px){.main,nav}{
+	flex-direction: column;
+}
+
+
+
+
